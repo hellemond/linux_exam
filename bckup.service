@@ -1,0 +1,9 @@
+[Unit]
+Description=run backup creator script
+
+[Service]
+Type=simple
+ExecStart=~/bin/bckup.sh
+
+[Install]
+WantedBy=multi-user.target
